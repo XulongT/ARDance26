@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Personalized Dance Synthesis Based on Physical and Cognitive Intensities.</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <style>
+  /* Carousel item: center content even if image sizes differ */
+  .results-carousel .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;     /* horizontal center */
+    justify-content: center; /* vertical center (helps when heights differ) */
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  /* A fixed-ish viewport for images, so small images don't float weirdly */
+  .carousel-figure{
+    width: 100%;
+    max-width: 900px;  /* you can tune this */
+    margin: 0 auto;
+  }
+
+  .carousel-figure .img-wrap{
+    width: 100%;
+    /* Give a consistent visual area; adjust if you want taller/shorter */
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carousel-figure img{
+    max-width: 100%;
+    max-height: 420px;  /* keep within a consistent height */
+    width: auto;
+    height: auto;
+    object-fit: contain; /* keep aspect ratio */
+    border-radius: 10px;
+  }
+
+  .carousel-title{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-weight: 700;
+  }
+
+  .carousel-caption{
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 0.98rem;
+    line-height: 1.4;
+  }
+
+  /* Make container responsive; remove the hard 50% constraint */
+  .carousel-container{
+    max-width: 980px;
+    margin: 0 auto;
+  }
+</style>
+
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Personalized Dance Synthesis Based on Physical and Cognitive Intensities.</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://xulongt.github.io/" target="_blank">Xulong Tang</a>,</span>
+                <span class="author-block">
+                  <a href="" target="_blank">Eun Yeo</a>,</span>
+                  <span class="author-block">
+                    <a href="" target="_blank">Ruiyu Mao</a>,
+                    <a href="" target="_blank">Xiaohu Guo</a>,
+                    <a href="https://rawanmg.com/" target="_blank">Rawan Alghofaili</a>
+
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">The University of Texas at Dallas<br>HeXD Lab</span>
+                    <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="static/pdfs/main.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="static/pdfs/supp.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- Youtube link -->
+                  <span class="link-block">
+                    <a href="https://www.youtube.com/watch?v=SdMiKnFtTTI" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
+        <!-- Your video here -->
+        <!-- <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video> -->
+      <img src="static/images/teaser.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Our framework synthesizes dance routines with controllable physical and cognitive intensities by combining multiple cost terms. By constraining the intensity of specific joint groups (Right), the system can produce fixed-arm dance routines while maintaining the same physical intensity as an unconstrained routine (Left).
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Dance-based exergames like Just Dance can be a fun way to boost your fitness and sharpen your mind. However, designing the dance routines requires expertise in modeling and animation. We introduce an augmented reality (AR) personalized dance generation framework that synthesizes dance routines according to specified physical and cognitive intensities. Our system utilizes a curated library of motion-capture dance segments, which are intelligently combined through an optimization process to meet user-defined intensity and cognitive goals. This optimization also ensures smooth transitions between movements for natural dance flow.  Users can customize routines by specifying physical constraints or injuries. Implemented in a depth-camera-based exergame that provides real-time performance feedback, our framework was evaluated through experiments and user studies confirming its effectiveness in generating personalized routines with varying levels of physical and cognitive intensity.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container carousel-container">
+      <div id="results-carousel" class="carousel results-carousel">
+
+        <!-- 1) Framework Overview -->
+        <div class="item">
+          <figure class="carousel-figure">
+            <div class="img-wrap">
+              <img src="static/images/overview.png" alt="Framework Overview" loading="lazy" />
+            </div>
+            <figcaption>
+              <h2 class="subtitle has-text-centered carousel-title">Framework Overview</h2>
+              <p class="carousel-caption">
+                The process begins by sampling dance segments from a curated library to form an initial sequence.
+                An iterative optimization procedure then refines this sequence based on a weighted combination of cost terms—including duration,
+                transition smoothness, motion variety, and physical intensity—until convergence criteria are met.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- 2) Exergame System -->
+        <div class="item">
+          <figure class="carousel-figure">
+            <div class="img-wrap">
+              <img src="static/images/exergame.png" alt="Exergame System" loading="lazy" />
+            </div>
+            <figcaption>
+              <h2 class="subtitle has-text-centered carousel-title">Exergame System</h2>
+              <p class="carousel-caption">
+                In the Training Phase, users freely explored the system with real-time feedback on movement and heart rate.
+                In the Performance Phase, a virtual guide delivered live choreography while a lower-right preview prompted upcoming moves.
+                This design encouraged both physical engagement and learning.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- 3) Experiment Result -->
+        <div class="item">
+          <figure class="carousel-figure">
+            <div class="img-wrap">
+              <img src="static/images/exp.png" alt="Experiment Result" loading="lazy" />
+            </div>
+            <figcaption>
+              <h2 class="subtitle has-text-centered carousel-title">Experiment Result</h2>
+              <p class="carousel-caption">
+                Experiment results under different training goals: “Light-Easy”, “Light-Hard”, “Intense-Easy”, and “Intense-Hard”.
+                We visualize joint-level intensities by normalizing intensity values across joints and mapping them to a color scale.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End image carousel -->
+
+<!-- YOUTUBE (FULL DEMO) -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Demo Video (Full)</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="publication-video">
+            <iframe
+              src="https://www.youtube.com/embed/SdMiKnFtTTI"
+              frameborder="0"
+              allow="autoplay; encrypted-media; picture-in-picture"
+              allowfullscreen
+              title="MACE-Dance Demo (Full)">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- End video carousel -->
+
+
+
+<!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        @article{todo
+        }  
+      </code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
